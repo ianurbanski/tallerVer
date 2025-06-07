@@ -9,7 +9,7 @@ function ajustarEstilos() {
 
     // Verificar si los elementos existen antes de aplicar estilos
     if (contenedor) {
-        if (window.innerWidth <= 768) {
+        if (window.innerWidth <= 550) {
             contenedor.style.flexDirection = "column";
             contenedor.style.gap = "20px";
         } else {
@@ -19,7 +19,7 @@ function ajustarEstilos() {
     }
 
     if (tarjeta && contenidoTarjeta) {
-        if (window.innerWidth <= 768) {
+        if (window.innerWidth <= 550) {
             tarjeta.style.width = "90%";
             tarjeta.style.height = "auto";
             tarjeta.style.padding = "20px";
